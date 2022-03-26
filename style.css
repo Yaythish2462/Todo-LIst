@@ -1,0 +1,304 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color: white !important;
+}
+
+.navbar-brand {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  color: whitesmoke !important;
+  font-size: 2rem;
+}
+.nav-link.active {
+  color: rgb(255, 255, 255) !important;
+}
+
+.me-auto {
+  margin-right: 0 !important;
+}
+.navbar-nav me-auto mb-2 mb-lg-0 {
+  padding-right: 20px !important;
+  margin-right: 30px;
+}
+.nav-item {
+  font-size: 1.3rem !important;
+}
+
+.nav-link.active:hover {
+  border-radius: 10px !important;
+  background-color: aqua !important;
+  color: black !important ;
+}
+#title {
+  padding-left: 70% !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+/* Main content - home*/
+
+#home2 {
+  background-image: url("todo.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 5%;
+}
+.h1{
+  font-size: 8rem;
+}
+#welcome {
+  text-align: center !important;
+  padding-top: 10%;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  color: rgb(0, 26, 255);
+}
+
+.h2{
+  font-size: 5rem;
+}
+#todo {
+  text-align: center;
+  padding-bottom: 5%;
+  color: rgb(0, 0, 0);
+}
+
+#start {
+  width: 20%;
+  margin-left: 40%;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(255, 0, 255);
+  padding: 2% 2%;
+  border: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke !important;
+  
+}
+
+a:hover {
+  color: black !important;
+}
+#start:hover {
+  background-color: rgb(235, 0, 235);
+}
+
+#pad1{
+  padding-bottom: 100px;
+}
+/* Main content - home*/
+
+/* Main content - task*/
+
+#home3{
+  background-color: rgb(53, 53, 53);;
+}
+
+#head {
+  padding: 2rem 1rem;
+  padding-top: -5rem;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#head h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+ 
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+#new-task-form {
+  display: flex;
+}
+
+input,
+button {
+  appearance: none;
+  border: none;
+  background: none;
+}
+
+#new-task-input {
+  flex: 1 1 0%;
+  background-color: black;
+  padding: 1rem;
+  border: 2px;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  color: white;
+  font-size: 1.25rem;
+}
+
+#new-task-input::placeholder {
+  color: white;
+}
+
+#new-task-submit {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.4s;
+  border: 2px;
+  border-radius: 10px;
+}
+
+#new-task-submit:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+#new-task-submit:active {
+  opacity: 0.6;
+}
+
+#main1 {
+  flex: 1 1 0%;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.task-list {
+  padding: 1rem;
+}
+
+.task-list h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+#tasks .task {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(226, 216, 216);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.task .content {
+  flex: 1 1 0%;
+}
+
+.task .content .text {
+  color: black;
+  font-size: 1.125rem;
+  width: 100%;
+  display: block;
+  transition: 0.4s;
+}
+
+.task .content .text:not(:read-only) {
+  color: darkblue;
+  font-family: "Noto Serif", serif;;
+}
+
+.task .actions {
+  display: flex;
+  margin: 0 -0.5rem;
+}
+
+.task .actions button {
+  cursor: pointer;
+  margin: 0 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+.task .actions button:hover {
+  opacity: 0.8;
+  color: rgb(0, 65, 0);
+}
+
+.task .actions button:active {
+  opacity: 0.6;
+}
+
+
+.task .actions .delete {
+  color: crimson;
+}
+
+.task .actions .delete:hover {
+  color: rgb(255, 0, 51);
+}
+
+#padd1{
+  padding-bottom: 500px;
+}
+
+
+/* About */
+
+#about{
+  background-color: rgb(73, 73, 73);;
+}
+#ab{
+  padding-top: 5rem;
+  color: white;
+  padding-left: 2rem;
+}
+
+#message{
+  color:rgb(255, 205, 255)
+}
+
+#pad2{
+  padding-bottom: 10%;
+}
+
+.text-center{
+  padding-top: 5rem;
+}
+
+/* Footer */
+
+footer{
+  background-color: rgb(32, 32, 32); ;
+}
+
+#contactus{
+  padding-top: 2rem;
+color: rgb(235, 0, 235);
+}
+
+h2 foot {
+  margin-bottom: 0%;
+}
+#foot{
+  color: rgb(255, 255, 255) !important;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#foot:hover{
+  color: aquamarine !important;
+}
+
+h6{
+  padding-bottom: 2rem;
+}
